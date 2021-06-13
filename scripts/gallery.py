@@ -13,4 +13,6 @@ args = parser.parse_args()
 with open(sys.argv[1], 'r') as file:
     data = yaml.safe_load(file);
     with open(args.output, 'w') as output:
+        output.write('/**/\ngallery(')
         json.dump(data, output, indent=4)
+        output.write(');')
