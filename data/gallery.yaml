@@ -1,3 +1,11 @@
+- id: 12
+  name: 'BabyCube 3D Printer'
+  public_url: 'https://github.com/martinbudden/BabyCube'
+  thumbnail: 'https://github.com/martinbudden/BabyCube/raw/main/BC200/assemblies/main_assembled.png'
+  creator:
+    name: 'Martin Budden'
+    public_url: 'https://github.com/martinbudden'
+
 - id: 11
   name: 'Keebcu - Keyboard Customizer'
   public_url: 'https://github.com/andimoto/keebcu'
