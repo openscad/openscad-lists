@@ -1,0 +1,34 @@
+name: Generate JSON
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Run convert script
+        run: |
+          cmake . -Bbuild
+          cmake --build build
+
+      - name: Tag Commit
+        uses: richardsimko/update-tag@v1
+        with:
+          tag_name: continous
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Release JSON
+        uses: softprops/action-gh-release@v1
+        with:
+          name: "continous-build"
+          tag_name: continous
+          files: build/*.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
