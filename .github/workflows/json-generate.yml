@@ -1,0 +1,21 @@
+name: Generate JSON
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run convert script
+        run: |
+          cmake . -Bbuild
+          cmake --build build
+
+      - uses: softprops/action-gh-release@v0.1.5
+        with:
+          name: "continous"
+          files: build/*.json
