@@ -17,11 +17,12 @@ jobs:
           cmake . -Bbuild
           cmake --build build
 
-      - name: Tag commit
-        uses: tvdias/github-tagger@v0.0.2
+      - name: Tag Commit
+        uses: richardsimko/update-tag@v1
         with:
-          tag: continous
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          tag_name: continous
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Release JSON
         uses: softprops/action-gh-release@v0.1.5
