@@ -28,3 +28,5 @@ jobs:
         with:
           name: "continous-build"
           files: build/*.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
