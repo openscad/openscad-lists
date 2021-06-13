@@ -28,6 +28,7 @@ jobs:
         uses: softprops/action-gh-release@v0.1.5
         with:
           name: "continous-build"
+          tag_name: continous
           files: build/*.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
