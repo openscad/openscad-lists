@@ -24,6 +24,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - uses: tinoji/delete-older-release-assets@v1.0.1
+        with:
+          keep_latest: 0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Release JSON
         uses: softprops/action-gh-release@v1
         with:
