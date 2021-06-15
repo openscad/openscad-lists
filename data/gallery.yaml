@@ -1,7 +1,7 @@
 - id: 13
-  name: 'Constructive Library to easy create Parts with less mathematics and code'
+  name: 'Constructive Library: to quickly create more complex parts with less mathematics and code'
   public_url: 'https://github.com/solidboredom/constructive'
-  thumbnail: 'https://raw.githubusercontent.com/solidboredom/constructive/raw/main/img/mount.gif'
+  thumbnail: 'https://raw.githubusercontent.com/solidboredom/constructive/main/img/mount.gif'
   creator:
     name: 'PPROJ'
     public_url: 'https://github.com/solidboredom'
