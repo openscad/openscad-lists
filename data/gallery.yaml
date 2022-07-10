@@ -38,6 +38,14 @@
     name: Tommy
     public_url: 'https://www.oskitone.com/about'
 
+- id: 'vw-beetle'
+  name: 'Volkswagen Beetle 1/24th scale motorization'
+  public_url: 'http://commandermodel.com/393/Volkswagen_Beetle'
+  thumbnail: 'http://www.commandermodel.com/articles/projects/Beetle.prototype.2/openscad_exploded_view.png'
+  creator: 
+    name: 'Martin H. Meng'
+    public_url: 'http://www.commandermodel.com'
+
 - id: 'mendel-90'
   name: 'Mendel 90'
   public_url: 'https://hydraraptor.blogspot.ca'
