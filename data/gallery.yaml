@@ -1,11 +1,3 @@
-- id: 'constructive'
-  name: 'Constructive Library: to quickly create more complex parts with less mathematics and code'
-  public_url: 'https://github.com/solidboredom/constructive'
-  thumbnail: 'https://raw.githubusercontent.com/solidboredom/constructive/main/img/mount.gif'
-  creator:
-    name: 'PPROJ'
-    public_url: 'https://github.com/solidboredom'
-    
 - id: 'baby-cube'
   name: 'BabyCube 3D Printer'
   public_url: 'https://github.com/martinbudden/BabyCube'
