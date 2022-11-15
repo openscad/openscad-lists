@@ -32,11 +32,11 @@
 
 - id: 'vw-beetle'
   name: 'Volkswagen Beetle 1/24th scale motorization'
-  public_url: 'http://commandermodel.com/393/Volkswagen_Beetle'
-  thumbnail: 'http://www.commandermodel.com/articles/projects/Beetle.prototype.2/openscad_exploded_view.png'
+  public_url: 'http://www.simulationrc.com/'
+  thumbnail: 'http://www.simulationrc.com/illustrations/twin.png'
   creator: 
     name: 'Martin H. Meng'
-    public_url: 'http://www.commandermodel.com'
+    public_url: 'http://www.simulationrc.com/'
 
 - id: 'mendel-90'
   name: 'Mendel 90'
