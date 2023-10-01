@@ -1,3 +1,10 @@
+- id: 'rider-animation'
+  name: 'Passive Rider Animation'
+  public_url: 'https://www.thingiverse.com/thing:6232798'
+  thumbnail: 'http://www.lastufka.net/trikke/ride/images/RiderOnTrikke.png'
+  creator:
+    name: 'Michael Lastufka'
+    public_url: 'http://www.lastufka.net/trikke'
 - id: 'baby-cube'
   name: 'BabyCube 3D Printer'
   public_url: 'https://github.com/martinbudden/BabyCube'
